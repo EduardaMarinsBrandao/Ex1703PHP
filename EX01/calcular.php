@@ -10,7 +10,7 @@
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
 
-    //Condição IF que determina qual valor é maior
+    //Condição IF que determina qual valor é maior 
     if ($n1 > $n2) 
     {
         echo "O número maior é: $n1";
