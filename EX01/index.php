@@ -13,6 +13,8 @@
         <br />
         Digite outro número:
         <input type="text" name="n2" size="25" />
+
+        <button type="submit">Calcular</button>
         <br />
     </form>
 </fieldset>
