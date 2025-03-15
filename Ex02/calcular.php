@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Média das notas</title>
+    <title>Média notas</title>
 </head>
 <body>
 <?php
@@ -12,15 +12,15 @@
 	$n3 = $_POST['n3'];
 	$n4 = $_POST['n4'];
 	
-    // Calculando a média
+    // Calculando a média das notas
     $soma = ($n1 + $n2 + $n3 + $n4) / 4;
 
-    if ($soma > 5)
+    if ( $soma > 5 )
     {
-        echo "Aprovado";
+        echo"Aprovado";
     }
     else
-    echo "Reprovado";
+    echo"Reprovado";
 
 ?>
 </body>
