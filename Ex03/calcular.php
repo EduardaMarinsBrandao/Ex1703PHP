@@ -11,7 +11,7 @@
     $n2 = $_POST['n2'];
     $s = 0;
 
-    //Condição IF que determina qual valor é maior 
+    //Condição IF que determina o novo salário 
     if ($n1 <= 800.00) 
     {
         $s = $n1 * (1 + 0.30);
